@@ -1,0 +1,15 @@
+[project]
+name = "agentic-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "daily-python>=0.19.1",
+    "dotenv>=0.9.9",
+    "fastapi>=0.115.12",
+    "pipecat-ai-small-webrtc-prebuilt>=0.7.0",
+    "pipecat-ai[cartesia,deepgram,openai,webrtc]>=0.0.68",
+    "python-dotenv>=1.1.0",
+    "uvicorn>=0.34.2",
+]
